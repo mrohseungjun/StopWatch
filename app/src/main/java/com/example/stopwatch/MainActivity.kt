@@ -98,7 +98,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun pause() {
-        Log.d("TEST","test")
         timer?.cancel()
         timer = null
 
