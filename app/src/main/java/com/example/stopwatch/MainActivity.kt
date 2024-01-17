@@ -3,6 +3,7 @@ package com.example.stopwatch
 import android.media.AudioManager
 import android.media.ToneGenerator
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -97,6 +98,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun pause() {
+        Log.d("TEST","test")
         timer?.cancel()
         timer = null
 
